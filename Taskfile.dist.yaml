@@ -1,0 +1,8 @@
+version: '3'
+tasks:
+  buf:generate:
+    cmds:
+      - buf generate
+  buf:
+    cmds:
+      - buf {{.CLI_ARGS}}
