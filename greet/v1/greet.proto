@@ -10,4 +10,5 @@ message GreetResponse { string greeting = 1; }
 
 service GreetService {
   rpc Greet(GreetRequest) returns (GreetResponse) {}
+  rpc GreetError(GreetRequest) returns (GreetResponse) {}
 }
